@@ -1,0 +1,29 @@
+{
+  "name": "xj_utils",
+  "version": "1.0.0",
+  "description": "工具",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father build",
+    "build-doc": "father doc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SnowJun215/XJ_utils.git"
+  },
+  "keywords": [
+    "stack、queue、tree、link、heap"
+  ],
+  "author": "June_Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnowJun215/XJ_utils/issues"
+  },
+  "homepage": "https://github.com/SnowJun215/XJ_utils#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.14.8",
+    "father": "^2.30.6"
+  }
+}
